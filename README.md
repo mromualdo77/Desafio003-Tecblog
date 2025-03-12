@@ -1,6 +1,6 @@
 🚀 Desafio003 - TechBlog
 
-👋 Olá, Apresento a vocês o TechBlog, um projeto criado  para aprimorar habilidades em desenvolvimento front-end. Este blog reúne os melhores artigos sobre programação, tendências e ferramentas essenciais para desenvolvedores!
+👋 Olá, Apresento a vocês o TechBlog, um projeto criado  para aprimorar minhas habilidades em desenvolvimento front-end. Este blog reúne os melhores artigos sobre programação, tendências e ferramentas essenciais para desenvolvedores!
 
 🎯 Objetivo do projeto
 
