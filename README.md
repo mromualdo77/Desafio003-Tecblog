@@ -12,6 +12,12 @@ HTML5
 
 CSS3 (com design responsivo)
 
+## 🏆 Créditos
+Desafio da comunidade [CodeLab](https://github.com/iuricode/desafios-frontend)
+Desenvolvido por [**Maria Romualdo**](https://mromualdo77.github.io/Desafio003-Tecblog/)
+
+
+
 
 
 
