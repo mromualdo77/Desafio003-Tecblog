@@ -8,13 +8,23 @@ Criar uma plataforma moderna e responsiva onde desenvolvedores possam encontrar 
 
 🛠️ Tecnologias utilizadas
 
-HTML5
 
-CSS3 (com design responsivo)
+- **HTML5**
+- **CSS3** (com design responsivo)
+
+## 📸 Preview
+  ![Preview do TechBlog](./src/imagens/illustra.png)
+
+  ## 📂 Estrutura do Projeto
+  
 
 ## 🏆 Créditos
 Desafio da comunidade [CodeLab](https://github.com/iuricode/desafios-frontend)
 Desenvolvido por [**Maria Romualdo**](https://mromualdo77.github.io/Desafio003-Tecblog/)
+
+
+
+
 
 
 
