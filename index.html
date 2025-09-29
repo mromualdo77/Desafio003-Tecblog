@@ -11,24 +11,26 @@
 </head>
 
 <body>
-    <main>
-        <section class="hero">
-            <div class="container-cabecalho">
+    <main class="site">
+        <header class="hero">
+            <div class="hero-inner container">
                 <div class="grupo-artigo">
                     <p class="text-artigo">Encontre os melhores artigos de programação em um só lugar</p>
                     <p class="segundo-paragrafo">Explore o topo da programação em um só lugar! Seu destino único para
                         dicas e tendências atuais.</p>
-                    <button>Buscar artigos</button>
+                    <a class="btn-primary" href="#artigo">Buscar artigos</a>
                 </div>
-                <div class="image-lateral">
+
+                <div class="image-lateral" aria-hidden="true">
                     <img src="./src/imagens/illustra.png" alt="Ilustração representando tecnologia">
                 </div>
             </div>
-        </section>
+        </header>
 
-        <section class="artigos-recomendados">
+        <section id="artigos" class="artigos-recomendados container">
             <h2>Artigos recomendados</h2>
             <div class="container-cards">
+                <!-- Card 1 -->
                 <article class="card">
                     <img src="./src/imagens/image-1.png" alt="Ilustração representando linguagens de programação">
                     <div class="content-info">
@@ -37,6 +39,7 @@
                     </div>
                 </article>
 
+                <!-- Card 2 -->
                 <article class="card">
                     <img src="./src/imagens/image-2.png" alt="Ilustração sobre Python e análise de dados">
                     <div class="content-info">
@@ -45,6 +48,7 @@
                     </div>
                 </article>
 
+                <!-- Card 3 -->
                 <article class="card">
                     <img src="./src/imagens/image-3.png" alt="Logo do GitHub">
                     <div class="content-info">
@@ -53,6 +57,7 @@
                     </div>
                 </article>
 
+                <!-- Card 4 -->
                 <article class="card">
                     <img src="./src/imagens/image-4.png" alt="Terminal exibindo comandos do Git">
                     <div class="content-info">
@@ -61,6 +66,7 @@
                     </div>
                 </article>
 
+                <!-- Card 5 -->
                 <article class="card">
                     <img src="./src/imagens/image-5.png" alt="Logos do Git e GitHub">
                     <div class="content-info">
@@ -69,6 +75,7 @@
                     </div>
                 </article>
 
+                <!-- Card 6 -->
                 <article class="card">
                     <img src="./src/imagens/image-6.png" alt="Ilustração do GitHub Copilot integrado ao GPT-4">
                     <div class="content-info">
@@ -79,11 +86,11 @@
             </div>
         </section>
 
-        <section class="container-form">
+        <section class="container-form container">
             <div class="formulario">
                 <h3>Entre em contato</h3>
 
-                <form action="#" class="form">
+                <form action="#" class="form" novalidate>
 
                     <label for="name">Nome</label>
                     <input type="text" id="name" name="name" class="input-name" placeholder="Seu Nome" required>
@@ -95,7 +102,7 @@
                     <textarea id="message" name="message" class="input-textarea" placeholder="Assunto da Mensagem"
                         required></textarea>
 
-                    <button type="submit" class="button">Enviar Mensagem</button>
+                    <button type="submit" class="button-primary full">Enviar Mensagem</button>
                 </form>
             </div>
         </section>
